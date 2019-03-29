@@ -12,7 +12,7 @@ sed '/.c-dialog__footer .c-button/i \
 .c-pillow_file__post__content ul.checklist li:before{background: #363636 !important} \
 .c-pillow_file__post__content ul.checklist li.checked{font-style: italic;} \
 .c-pillow_file__post{border-top: 1px solid #222222;} \
-.p-threads_view_reply--new_reply{background: #ffb088 !important; color: black !important}
+.p-threads_view_reply--new_reply{background: #ffb088 !important; color: black !important} \
 \
 ' tmp_ssb-interop.js >> ssb-interop
 mv ssb-interop tmp_ssb-interop.js
